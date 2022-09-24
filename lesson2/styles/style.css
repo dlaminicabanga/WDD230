@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Permanent+Marker&display=swap');
+
+.orginization-images {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h1 {
+    color:midnightblue;
+    background-color:aliceblue;
+    margin-right: 0em;
+    margin-left: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h2 {
+    color:midnightblue;
+    margin-left: 1.5em;
+    margin-right: 0em;
+    
+}
+
+p {
+    margin-right: 6em;
+    margin-left: 2em;
+    font-family: 'roboto';
+    font-size: 0.99em;
+}
+
+.jobs-img, .rstp-img, .adidas-img {
+    width: 70%;
+    height: 500px;
+    opacity: 90%;
+    align-items: center;
+    border: 1px solid#334E60;
+    transition: transform .2s;
+    box-shadow: 5px 5px 10px rosybrown;
+    border-radius: 10px;
+    margin-left: 2em;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+
+/* ---Desktop - Large - View */
+@media screen and (min-width: 60.em) {}
+
+/* ---Tablet - Medium - View */
+@media screen and (min-width: 37.em) {}
+
+/* ---Phone - Small - View */
+
+img {
+    max-width: 100%;
+    display: block;
+}
