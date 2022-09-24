@@ -3,8 +3,25 @@
 .orginization-images {
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
 }
+/*
+.jobs {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.rstp {
+    grid-column: 3/5;
+    grid-row: 4/6;
+}
+
+.adidas {
+    grid-column: 1/9;
+    grid-row: 7/9;
+}
+*/
+
 
 h1 {
     color:midnightblue;
@@ -51,16 +68,15 @@ footer {
     align-items: center;
     font-size: 16px;
 }
-
-/* ---Desktop - Large - View */
-@media screen and (min-width: 60.em) {}
-
-/* ---Tablet - Medium - View */
-@media screen and (min-width: 37.em) {}
-
-/* ---Phone - Small - View */
-
-img {
-    max-width: 100%;
-    display: block;
-}
+@media screen and (max-width: 900px) {
+    .orginization-images {
+        display: block;
+        height: auto;
+    }
+    footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
