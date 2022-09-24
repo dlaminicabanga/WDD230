@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom :10px;
+    background-color:aliceblue;
+    color: midnightblue;
+    border-radius: 10px;
+}
+
+h2 {
+    color:midnightblue;
+    background-color:aliceblue;
+    margin-right: 0em;
+    margin-left: 1.5em;
+    padding-top: 10px;
+    padding-bottom :10px;
+    border-radius: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+main section {
+    margin-top: 4rem;
+}
+
+main span {
+    display: block;
+    font-size: 20px;
+    color:midnightblue;
+}
+
+main a {
+    display: block;
+    margin-top: .5rem;
+}
+
+main img {
+    margin-top: 2rem;
+}
+
+main p {
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+.jobs-img, .rstp-img, .adidas-img {
+    
+    box-shadow: 5px 5px 10px rosybrown;
+    border-radius: 10px;
+    
+}
