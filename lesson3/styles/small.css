@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Domine:wght@700&family=Tajawal:wght@700&display=swap");
+
+
+body {
+    /*font-family: "Noto Sans", sans-serif;*/
+    background-color: rgb(224, 129, 129);
+}
+
+header {
+    text-align: center;
+    background-color: orange;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    
+}
+h1 {
+    color: greenyellow;
+    font-size: 0px;
+    font-family: "Domine";
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 2em;
+}
+
+h3 {
+    text-align: center;
+    color:cyan;
+    font-size: 31px;
+    font-family: "Tajawal";
+}
+h5 {
+    text-align: center;
+    color: #8b2635;
+    font-size: large;
+}
+.shade {
+    margin-right: 13%;
+    margin-left: 13%;
+    color: white;
+    font-family: 'Abyssinica';
+    font-size: 20px;
+}
+.colors, link {
+    text-align: center;
+}
+
+.logo-img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1em;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #E6C229   ;
+    --secondary-color: #F17105 ;
+    --accent1-color: #D11149;
+    --accent2-color: #6610F2;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Permanent Marker";
+    --paragraph-font: Courier Prime, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #14213d;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #14213d; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #14213d  ;
+    --nav-link-color: #fff;
+    --nav-background-color: #fca311;
+    --nav-hover-link-color: #8b2635;
+    --nav-hover-background-color: #14213d;
+  }
