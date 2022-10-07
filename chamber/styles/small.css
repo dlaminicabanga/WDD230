@@ -1,0 +1,94 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*header {
+    background-color: #fff;
+    padding: 5px 0;
+    display: flex;
+}*/
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: flex;
+}
+
+.social-icon {
+    color: #555;
+    transition: color 0.3s;
+    height: auto;
+    text-decoration: none;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav {
+    background-color: #fff;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul li.active a {
+    background-color: rgba(240, 236, 13, 0.3);
+    color: darkorange;
+}
+
+nav ul li a:hover {
+    background-color: rgba(240, 236, 13, 0.3);
+    color:darkorange;
+    transition: color 0.3s;
+}
+
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn.open span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:block;}
+
+.date,
+aside {
+	margin: 0.5rem;
+	padding: 0.75rem;
+	background-color: #eee;
+}
+footer {
+    background-color: #eee;
+    padding-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
