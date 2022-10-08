@@ -10,6 +10,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     display: flex;
 }*/
 
+
 .logo {
     width: 200px;
     height: auto;
@@ -72,12 +73,20 @@ nav ul.open {display: block;}
 .date,
 aside {
 	margin: 0.5rem;
-	padding: 0.75rem;
+	padding-left: 0.5rem;
 	background-color: #eee;
 }
 footer {
     background-color: #eee;
     padding-top: 1px;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    background-color: rgba(240, 236, 13, 0.3);
+    color:darkorange;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
