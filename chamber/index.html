@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Assignment Chamber Home Page Web Fronted Development @ BYU">
     <title>Chamber Home Page</title>
-    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,17 +47,32 @@
 
     </header>
     <h1 class="home-title">Cabanga Mangaliso Dlamini<br><br>Chamber Home Page</h1>
-    <manin>
 
-
-    </manin>
+    <main id="mainSections">
+        <section class="mainSection" id="heroSection">Hero with site name and call to action</section>
+        <section class="mainSection" id="eventSection">Event</section>
+        <section class="mainSection" id="weatherSection">Weather</section>
+        <section class="mainSection" id="joinSection">Join</section>
+        <section class="mainSection" id="newsSection">News Release</section>
+        <section class="mainSection" id="spotlightsSection">
+            <div id="spotlight1">Spotlight 1</div>
+            <div id="spotlight2">Spotlight 2</div>
+            <div id="spotlight3">Spotlight 3</div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2022 Manzini City Chamber of Commerce </p> 
-        <p>Cabanga Mangaliso Dlamini</p> 
-        <p>Call: +268 7664 0001 or Email:manzinicitychambers@gmail.com </p> 
-        <p> Last Modified: </p><div class="date"></div>
-        
+        <section id="mainFooter">
+            <img id="logo" src="images/logo.PNG" alt="Manzini City Logo">
+            <div id="contactInformation">
+                <div id="contact">Call: +268 7664 0001 or Email:manzinicitychambers@gmail.com</div>
+                <div id="map">📌 Location Map</div>
+            </div>
+        </section>
+        <section id="baseFooter">
+            &copy;<span id="year"></span> Manzini City Chambers | Cabanga M. Dlamini | WDD 230 Project | Last
+            Modification: <span id="lastModified"></span>
+        </section>
     </footer>
     <script src="scripts/scripts.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
