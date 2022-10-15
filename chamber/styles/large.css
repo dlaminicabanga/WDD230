@@ -1,6 +1,6 @@
 /* 64rem is also 1028px when basefont is 16px */
 
-@media only screen and (min-width: 1138px) {
+@media only screen and (min-width: 64rem) {
 
     header {
         background-color: #fff;
@@ -18,7 +18,8 @@
     }
 
     nav ul li a {
-        display:flow-ro
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3)
     }
 
     h1 {

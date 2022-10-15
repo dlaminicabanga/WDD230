@@ -70,15 +70,7 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display:none;}
 #hamburgerBtn.open span:nth-child(2) {display:block;}
 
-h1 {
-    text-align: center;
-    background-color: rgba(240, 236, 13, 0.3);
-    color:darkorange;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-left: 32px;
-    margin-right: 42px;
-}
+
 #mainSections {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -125,7 +117,7 @@ h1 {
 /* FOOTER */
 
 footer {
-    background-color: rgb(223, 120, 120);
+    background-color: rgb(238, 108, 108);
     height: 15rem;
     display: flex;
     flex-direction: column;
@@ -143,18 +135,20 @@ footer #mainFooter {
     gap: 2rem;
 }
 
-footer #mainFooter #logo {
-    width: 130px;
+footer #mainFooter #logo2 {
+    width: 150px;
+    display: block;
 }
 
 footer #baseFooter {
     text-align: center;
-    color: black;
+    color: white;
     font-family: var(--inter-font);
 }
 
 footer #mainFooter #contactInformation {
     text-align: center;
+    color: white;
 }
 
 footer #mainFooter #contactInformation :nth-child(2) {
