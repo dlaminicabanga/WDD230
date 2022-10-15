@@ -137,7 +137,6 @@ footer #mainFooter {
 
 footer #mainFooter #logo2 {
     width: 150px;
-    display: block;
 }
 
 footer #baseFooter {
@@ -159,10 +158,19 @@ footer #mainFooter #contactInformation :nth-child(2) {
     height: 100%;
     object-fit: cover;
 }
+
+#heroSection picture img:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+
 #mainSections #heroSection h2 {
     position:absolute;
-    left: 6em;
-    color: darkorange;
+    left: 3em;
+    color: rgb(255, 255, 255);
+    font-family:sans-serif;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 4px red;
 }
 
 #mainSections #heroSection .joinUsButton {
@@ -203,6 +211,11 @@ footer #mainFooter #contactInformation :nth-child(2) {
 #weather-image {
     width: 80px;
     height: 0 auto;
+}
+
+#weather-image:hover {
+    opacity: .8;
+    transform: scale(1.3);
 }
 .shaded {
     display: block;

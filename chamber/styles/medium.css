@@ -50,7 +50,10 @@ h1 {
 #mainSections #heroSection h2 {
     position:absolute;
     left: 3em;
-    color: darkorange;
+    color: white;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 4px red;
 }
 
 #mainSections #eventSection {
