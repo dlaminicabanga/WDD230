@@ -29,14 +29,6 @@
     padding-bottom: 0px;
 }
 
-h1 {
-    text-align: center;
-    background-color: rgba(240, 236, 13, 0.3);
-    color:darkorange;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
 #mainSections {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 300px);
@@ -47,11 +39,12 @@ h1 {
     grid-row: 1 / 2;
 }
 
-#mainSections #heroSection h2 {
+#mainSections #heroSection h1 {
     position:absolute;
-    left: 3em;
+    margin-left: 18px;
     color: white;
     font-family:sans-serif;
+    font-size:large;
     text-transform: uppercase;
     text-shadow: 5px 5px 4px red;
 }
