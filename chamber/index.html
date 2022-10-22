@@ -53,7 +53,9 @@
         <section class="mainSection" id="heroSection">
             <h1>Welcome to Manzini City <br> Chamber of Commerce</h1>
             <picture>
-                <img src="images/hero.jpeg" alt="businesspeople gathering sharing creative ideas with another.">
+                <source media="(min-width: 1024px)" srcset="images/wdd230-org_large.webp">
+                <source media="(min-width: 560px)" srcset="images/wdd230-org_medium.webp">
+                <img src="images/wdd230-org_small.webp" alt="hero image">
             </picture>
             <button class="joinUsB3utton">Join the Chamber</button>
         </section>
@@ -61,32 +63,34 @@
         <section class="mainSection" id="eventSection">
             <h2>Up-Comming Events</h2>
             <h4>Building Networks on a large Scale & Growing</h4>
-            <p>The more you learn the more you become good and thats the more you will get the opportunities to grow
-                your business heights. Please come join us as we will diving deep on how to do this.</p>
+            <p>The more you keep learning thats the more you will get the opportunities to grow
+                your business to new levels. Please come join us as we will diving deep on how to do this.</p>
             <p>Date: Surtday 23/ 2022</p>
         </section>
         <section class="mainSection" id="weatherSection">
-            <h2>The Weather</h2>
+            <h3>Today's Weather</h3>
+                <div id="climate">
+                  <picture>
+                    <img id="weather-image" src="images/weather.jpg" alt="this is the weather image">
+                  </picture>
+                  <p><span class="degrees"></span>°</p>
+                </div>
+                <div class="weather-center">
+                  <h3>Partly Cloudy</h3>
+                </div>
+                <div class="weather-bottom">  
+                  <p>Speed: <span class="speed"></span></p>
+                  <p>Wind Chill: <span class="wind"></span></p>
+                </div>
+            </section>
 
-            <h4>Your weather forcast today</h4>
-
-            <div id="climate">
-                <img id="weather-image" src="images/weather.jpg" alt="this is the weather image">
-                <span id="temperature">25ºC</span>
-
-                <p>Compared to the lightning and mild rain we have been experiencing the past two days, the weather
-                    today appears to be improving.</p>
-            </div>
-
-        </section>
         <section class="mainSection" id="joinSection">
             <h2>Join</h2>
 
             <h4>Collaborate With the Best</h4>
 
             <p>Join the greatest chamber of commerce in the area to network with the brightest minds who can guide your
-                small or large business toward the success you have always envisioned. You are welcome to join us at any
-                time, and with out greatest strength we will always support one another. Sign up now to get started and never look back.</p>
+                small or large business toward the success you have always envisioned.</p>
 
             <button class="joinUsButton">Join Now</button>
         </section>
@@ -99,23 +103,21 @@
 
             <p>Inflation Right Now: Why Families Are Stressed.</p>
 
-            <p>The global pandemic Covid-19 appears to be costing more individuals their steady jobs, which also happen
-                to be their only source of income to make ends meet.</p>
-
         </section>
         <section class="mainSection" id="spotlightsSection">
             <div id="spotlight1">
 
-                <img id="spotlight-images" src="images/distribution.PNG" alt="Manzini City Logo">
+                <img id="spotlight-images0" src="images/distribution.PNG" alt="Manzini City Logo">
 
                 <h4>Types of distribution Channels</h4>
 
-                <p>Direct selling, selling through <br>intermediaries, dual distribution, <br>and reverse logistics channels.</p>
+                <p>Direct selling, selling through <br>intermediaries, dual distribution, <br>and reverse logistics
+                    channels.</p>
 
             </div>
             <div id="spotlight2">
 
-                <img id="spotlight-images" src="images/services.PNG" alt="Manzini City Logo">
+                <img id="spotlight-images1" src="images/services.PNG" alt="Manzini City Logo">
 
                 <h4>Quick service delivery</h4>
 
@@ -125,30 +127,32 @@
             </div>
             <div id="spotlight3">
 
-                <img id="spotlight-images" src="images/revenue.PNG" alt="Manzini City Logo">
+                <img id="spotlight-images2" src="images/revenue.PNG" alt="Manzini City Logo">
 
                 <h4>Financial Health Analysis</h4>
 
-                <p>A comprehensive Financial Ratio<br> Analysis is a useful approach which<br> allows one to evaluate the financial<br> results of the Business Model. </p>
+                <p>A comprehensive Financial Ratio<br> Analysis is a useful approach which<br> allows one to evaluate
+                    the financial<br> results of the Business Model. </p>
 
             </div>
         </section>
     </main>
 
     <footer>
-        <section id="mainFooter">
+        <div id="mainFooter">
             <img id="logo2" src="images/logo2.PNG" alt="Manzini City Logo">
             <div id="contactInformation">
                 <div id="contact">Call: +268 7664 0001 or Email:manzinicitychambers@gmail.com</div>
                 <div id="map">📌 Location Map</div>
             </div>
-        </section>
-        <section id="baseFooter">
+        </div>
+        <div id="baseFooter">
             &copy;<span id="year"></span> Manzini City Chambers | Cabanga M. Dlamini | WDD 230 Project | Last
             Modification: <span id="lastModified"></span>
-        </section>
+        </div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
