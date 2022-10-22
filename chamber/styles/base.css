@@ -114,6 +114,7 @@ nav ul.open {display: block;}
 #mainSections #joinSection {
     display: none;
 }
+
 /* FOOTER */
 
 footer {
@@ -230,10 +231,8 @@ p {
     opacity: .8;
     transform: scale(1.3);
 }
-.shaded {
-    display: block;
-    margin-right: 20%;
-}
+
+
 
 
 
