@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment Chamber Home Page Web Fronted Development @ BYU">
+    <title>Chamber Home Page</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;1,300&family=Poppins:wght@100&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.PNG" alt="Manzini City Logo">
+        </a><br>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="Discovery.html">Discover</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav><br>
+        <a class="social-icon" href="https://facebook.com" target="_blank">
+
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a class="social-icon" href="https://twitter.com" target="_blank">
+
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a class="social-icon" href="https://instagram.com" target="_blank">
+
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <div id="currentDate">Tuesday, 04 October 2022</div>
+
+    </header>
+    <h1>Discover the City Mall</h1>
+
+    <main id="disover">
+        <picture>
+            <img src="images/placeholder.PNG" data-src="Images/the-mall.jpg" alt="Front-Side">
+            
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.PNG" data-src="images/the-mall2.jpg" alt="In-house">
+            
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.PNG" data-src="images/the-mall3.jpg" alt="In-house2">
+
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.PNG" data-src="images/statistics-4.webp" alt="Statistics image">
+
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.PNG" data-src="images/statistics-3.jpg" alt="Statistics image2">
+
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.PNG" data-src="images/statistics-2.jpg" alt="Statistics image3">
+
+        </picture>
+
+    </main>
+
+    <footer>
+        <div id="mainFooter">
+            <img id="logo2" src="images/logo2.PNG" alt="Manzini City Logo">
+            <div id="contactInformation">
+                <div id="contact">Call: +268 7664 0001 or Email:manzinicitychambers@gmail.com</div>
+                <div id="map">📌 Location Map</div>
+            </div>
+        </div>
+        <div id="baseFooter">
+            &copy;<span id="year"></span> Manzini City Chambers | Cabanga M. Dlamini | WDD 230 Project | Last
+            Modification: <span id="lastModified"></span>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/lazy-loading.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
