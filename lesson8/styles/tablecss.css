@@ -15,12 +15,12 @@ html {
   }
   
   td, th {
-    border: 1px solid rgb(190,190,190);
+    border: 1px solid rgb(185, 29, 29);
     padding: 10px 20px;
   }
   
   th {
-    background-color: rgba(70, 127, 174, 0.737);
+    background-color: rgba(168, 170, 29, 0.737);
   }
 
   .title {
@@ -37,11 +37,11 @@ html {
   }
   
   tr:nth-child(odd) td {
-    background-color: rgba(205, 228, 247, 0.737);
+    background-color: rgba(205, 247, 247, 0.737);
   }
   
    #highlight {
-    background-color: rgba(70, 127, 174, 0.737);
+    background-color: rgba(216, 238, 15, 0.737);
   }
 
 figcaption {
