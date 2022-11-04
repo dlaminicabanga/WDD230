@@ -236,7 +236,7 @@ p {
 
 body {
     margin: 0 auto;
-    text-align: center;
+    /*text-align: center;*/
   }
   
   picture {
@@ -271,7 +271,62 @@ body {
     
   }
 
+  /*---- Join------*/
 
+form fieldset {
+    margin: 2rem 40px;
+    border: 1px solid rgb(105, 128, 196);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: royalblue;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    font-size: large;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #39d346;
+    font-size: 1rem;
+}
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(85, 85, 85, 0.103);
+}
+form label.sbs {
+    display:block;
+    padding: .75;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #24799D;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 4%;
+    width: 50%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    border-left: rgba(133, 21, 45, 0.418) solid 6px;
+}
+form label.top input:required:valid {
+    border-left: rgba(47, 0, 255, 0.89) 6px;
+}
+#shade2 {
+    text-align:left;
+    margin-left: 5%;
+    text-shadow: #39d346;
+    text-decoration: underline;
+}
 
 
 

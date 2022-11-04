@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment Chamber Home Page Web Fronted Development @ BYU">
+    <title>Chamber Home Page</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;1,300&family=Poppins:wght@100&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.PNG" alt="Manzini City Logo">
+        </a><br>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="Discovery.html">Discover</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav><br>
+        <a class="social-icon" href="https://facebook.com" target="_blank">
+
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a class="social-icon" href="https://twitter.com" target="_blank">
+
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a class="social-icon" href="https://instagram.com" target="_blank">
+
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <div id="currentDate">Tuesday, 04 October 2022</div>
+
+    </header>
+<main>
+    <h1 id="shade2">Manzini City Chamber of Commerce Membership Form</h1>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label class="top"> First Name* <input type="text" name="fname" required></label>
+            <label class="top"> Last Name* <input type="text" name="lname" required></label>
+            <label class="top"> Phone <input type="tel" name="phone" placeholder="+268 7600 0001"></label>
+            <label class="top"> Email* <input type="email" name="email" placeholder="youremail@gmail.com" required></label>
+            <label class="top"> Website <input type="url" name="url" placeholder="https://mywebsite.com"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Business / Company Information</legend>
+            <label class="top"> Trading Name* <input type="text" name="businessname" required></label>
+            <label class="top"> Trading License Number* <input type="text" name="licensename" required></label>
+            <label class="top"> Location* <input type="text" name="locationname" required></label>
+            <label class="top"> Phone <input type="tel" name="businessphone" placeholder="+268 2505 0001"></label>
+            <label class="top"> Email* <input type="email" name="businessemail" placeholder="businesemail@gmail.com" required></label>
+            <label class="top"> Website <input type="url" name="companyurl" placeholder="https://companaywebsite.com"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <div>(How did you learn about us)</div>
+            <label class="sbs"><input type="radio" name="aboutus" value="internet">Internet</label>
+            <label class="sbs"><input type="radio" name="aboutus" value="news">News</label>
+            <label class="sbs"><input type="radio" name="aboutus" value="socialmedia">Social Media</label>
+            <label class="sbs"><input type="radio" name="aboutus" value="friend">A Friend</label>
+            <div>(Are you intrest in recieving weekly updates)</div>
+            <label class="sbs"><input type="checkbox" name="Intrest" value="yes">Yes</label>
+            <label class="sbs"><input type="checkbox" name="Intrest2" value="yes">No</label>
+        </fieldset>
+        <fieldset>
+            <legend>Funding</legend>
+            <label class="top">Date of Joining the Chamber<input type="date" name="joinDate"></label>
+            <div>Please note completion will be recognised when all fees have been paid</div>
+            <label class="top">Anticipated Completion Date<input type="date" name="completeDate"></label>
+            <label class="top">How best can we reach you
+                <select name="reachout">
+                    <option value="">select here</option>
+                    <option value="phone">Phone call</option>
+                    <option value="text">Text (SMS)</option>
+                    <option value="email">Email</option>
+                    <option value="postoffice">Post Office</option>
+                    <option value="face">Face to Face</option>
+                    <option value="other">Other Means</option>
+                </select>
+            </label>
+            <label class="top">How many Companies<input type="number" name="authers"</label> 
+        </fieldset>
+        <input type="submit" value="Become An Official Member" class="submitBtn">
+    </form>
+</main>
+
+<footer>
+    <div id="mainFooter">
+        <img id="logo2" src="images/logo2.PNG" alt="Manzini City Logo">
+        <div id="contactInformation">
+            <div id="contact">Call: +268 7664 0001 or Email:manzinicitychambers@gmail.com</div>
+            <div id="map">📌 Location Map</div>
+        </div>
+    </div>
+    <div id="baseFooter">
+        &copy;<span id="year"></span> Manzini City Chambers | Cabanga M. Dlamini | WDD 230 Project | Last
+        Modification: <span id="lastModified"></span>
+    </div>
+</footer>
+<script src="scripts/scripts.js"></script>
+<script src="scripts/windchill.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
