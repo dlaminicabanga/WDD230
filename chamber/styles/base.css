@@ -338,9 +338,11 @@ form label.top input:required:valid {
     margin-left: 10%;
     margin-right: 10%;
 }
-#handshake {
-    text-align: center;
+main picture.handshake {
+    width: 30%;
+    margin-left: 40%;
 }
+main picture.handshake img {width: 100%; border-radius: 20px;}
 
 
 
