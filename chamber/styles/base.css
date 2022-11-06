@@ -327,7 +327,20 @@ form label.top input:required:valid {
     text-shadow: #39d346;
     text-decoration: underline;
 }
-
+/* --- Thanks Page ----*/
+#submission {
+    color: #39d346;
+    text-shadow: #d3395a;
+    text-align: center;
+} 
+#thanks, #thanks2 {
+    color: #6b313e;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#handshake {
+    text-align: center;
+}
 
 
 
