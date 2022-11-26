@@ -222,6 +222,7 @@ p {
     border-radius: 4px;
     padding: .5rem 1em;
     transition: .1s ease-out;
+    text-decoration: none;
 }
 .joinUsB3utton:hover {
     color: #d3395a;
@@ -550,4 +551,35 @@ outline: none;
 padding: 12px 16px;
 background-color: #f1f1f1;
 cursor: pointer;
+}
+
+/******** Contact us page ******/
+
+.note {
+    color:red;
+    text-align: center;
+    text-shadow: #1D366F;
+    text-decoration: dotted;
+    font-stretch: expanded;
+}
+
+#contuct-list {
+    background-color: black;
+    font-size: large;
+    text-decoration: wavy;
+    font-weight: 200;
+    color: white;
+    line-height: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: Source Serif Pro;
+    border-radius: 10px;
+    list-style-type: square;
+    
+}
+
+.dail-numbers {
+    text-align: center;
+    color: #4b94cf;
+    font-size: large;
 }
