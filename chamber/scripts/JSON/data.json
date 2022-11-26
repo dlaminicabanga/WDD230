@@ -5,7 +5,7 @@
         "address": "7th Stree, M220",
         "phone": "(+268) 2505-3321",
         "website": "www.ruchiwhole.com",
-        "icon": "./scripts/JSON/images/ruchi2.JPG",
+        "icon": "./scripts/JSON/images/ruchi2.jpg",
         "level": "Level: Gold"
       },
       {
@@ -21,7 +21,7 @@
         "address": "Street 44, melo park",
         "phone": "(+268) 2505-9029",
         "website": "www.mva.com",
-        "icon": "./scripts/JSON/images/Capture.png",
+        "icon": "./scripts/JSON/images/Capture.PNG",
         "level": "Level: None profit"
       },
       {
