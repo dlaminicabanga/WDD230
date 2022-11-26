@@ -61,7 +61,7 @@
         "address": "Kakhoza, highway MR3",
         "phone": "(+268) 2505-9131",
         "website": "www.totalfuel.com",
-        "icon": "./scripts/JSON/images/totalfuel_logo.png",
+        "icon": "./scripts/JSON/images/totalfuel_logo.PNG",
         "level": "Level: Silver"
       },
       {
@@ -69,7 +69,7 @@
         "address": "Riverstone, S67",
         "phone": "(+268) 2505-2001",
         "website": "www.celtronixmobicell@co.za",
-        "icon": "./scripts/JSON/images/celtronix.png",
+        "icon": "./scripts/JSON/images/celtronix.PNG",
         "level": " Level: Bronze"
       }
     ]
