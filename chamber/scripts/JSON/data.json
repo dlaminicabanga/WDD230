@@ -1,94 +1,76 @@
 {
-    "companies": 
-    [  {
-            "name": "Ruchi Wholesalers",
-            "address": "7th Stree, M220",
-            "phoneNumber": "+268.2505.3321",
-            "email": "ruchiwholesalers@co.za",
-            "URL": "https://www.ruchiwhole.com/",
-            "image": "json/images/ruchi_logo.jpg",
-            "level": "Gold"
-        },
-
-        {
-            "name": "Eswatini National Provident Fund",
-            "address": "Road 27, City Center",
-            "phoneNumber": "+268.2505.1120",
-            "email": "enpf@co.za",
-            "URL": "https://www.snpf.com/",
-            "image": "json/images/snpf_logo.jpg",
-            "level": "Gold"
-        },
-
-        {
-            "name": "Motor Vehicle Accident Fund",
-            "address": "Street 44, melo park",
-            "phoneNumber": "+268.2505.9021",
-            "email": "mva@co.sz",
-            "URL": "https://www.mva.com/",
-            "image": "json/images/mva_logo.jpg",
-            "level": "None profit"
-        },
-
-        {
-            "name": "Royal Sugar Association",
-            "address": "Mhlume, st55r",
-            "phoneNumber": "+268.2505.1821",
-            "email": "royalsugarassociation@co.za",
-            "URL": "https://www.royalsugarassociation.com/",
-            "image": "json/images/sugar_logo.jpg",
-            "level": "Gold"
-        },
-
-        {
-            "name": "Swazi Bank",
-            "address": "Manzini P44",
-            "phoneNumber": "+268.2505.7721",
-            "email": "swazibank@co.sz",
-            "URL": "https://www.swazibank.com/",
-            "image": "json/images/swazibank_logo.jpg",
-            "level": "Silver"
-        },
-
-        {
-            "name": "Eswatini Mobile",
-            "address": "Mbabane, 4th Street",
-            "phoneNumber": "+268.2505.5670",
-            "email": "eswatinimobile@co.za",
-            "URL": "https://www.eswatinimobile.com/",
-            "image": "scripts/JSON/images/AmTrust_Bank.png",
-            "level": "Silver" 
-        },
-
-        {
-            "name": "Boxer Super Store",
-            "address": "Moneni, 6th Block 18#",
-            "phoneNumber": "+268.2505.3420",
-            "email": "boxerstore@co.za",
-            "URL": "https://www.boxerstore.com/",
-            "image": "scripts/JSON/images/boxer_logo.jpg",
-            "level": "Bronze"
-        },
-
-        {
-            "name": "Total Fuel",
-            "address": "Kakhoza, highway MR3",
-            "phoneNumber": "+268.2505.9131",
-            "email": "totalfuel@co.za",
-            "URL": "https://www.totalfuel.com/",
-            "image": "json/images/totalfuel_logo.jpg",
-            "level": "Silver"
-        },
-
-        {
-            "name": "Celtronix Mobicell",
-            "address": "Riverstone, S67",
-            "phoneNumber": "+268.2505.0201",
-            "email": "celtronixmobicell@co.za",
-            "URL": "https://www.celltronixm.com/",
-            "image": "json/images/celtronix_logo.jpg",
-            "level": "Bronze"
-        }
+    "companies": [
+      {
+        "name": "Ruchi Wholesalers",
+        "address": "7th Stree, M220",
+        "phone": "(+268) 2505-3321",
+        "website": "www.ruchiwhole.com",
+        "icon": "./scripts/JSON/images/ruchi2.JPG",
+        "level": "Level: Gold"
+      },
+      {
+        "name": "Eswatini National Provident Fund",
+        "address": "Road 27, City Center",
+        "phone": "(+268) 2505-1820",
+        "website": "www.snpf.com",
+        "icon": "./scripts/JSON/images/snpf_logo.png",
+        "level": "Level: Gold"
+      },
+      {
+        "name": "Motor Vehicle Accident Fund",
+        "address": "Street 44, melo park",
+        "phone": "(+268) 2505-9029",
+        "website": "www.mva.com",
+        "icon": "./scripts/JSON/images/Capture.png",
+        "level": "Level: None profit"
+      },
+      {
+        "name": "Royal Sugar Association",
+        "address": "Mhlume, st55",
+        "phone": "(+268) 2505-1021",
+        "website": "www.royalsugarassociation.com",
+        "icon": "./scripts/JSON/images/sugar_logo.png",
+        "level": "Level: Gold"
+      },
+      {
+        "name": "Swazi Bank",
+        "address": "Manzini P44",
+        "phone": "(+268) 2505-2771",
+        "website": "www.swazibank.com",
+        "icon": "./scripts/JSON/images/swazibank_logo.png",
+        "level": "Level: Silver"
+      },
+      {
+        "name": "Eswatini Mobile",
+        "address": "Mbabane, 4th Street",
+        "phone": "(+268) 2505-5670",
+        "website": "www.eswatinimobile.com",
+        "icon": "./scripts/JSON/images/eswatinimobile2.png",
+        "level": "Level: Silver"
+      },
+      {
+        "name": "Boxer Super Store",
+        "address": "Moneni, 6th Block 18#",
+        "phone": "(+268) 2505-3420",
+        "website": "www.boxerstore.com",
+        "icon": "./scripts/JSON/images/boxer_logo.webp",
+        "level": "Level: Bronze"
+      },
+      {
+        "name": "Total Fuel",
+        "address": "Kakhoza, highway MR3",
+        "phone": "(+268) 2505-9131",
+        "website": "www.totalfuel.com",
+        "icon": "./scripts/JSON/images/totalfuel_logo.png",
+        "level": "Level: Silver"
+      },
+      {
+        "name": "Celtronix Mobicell",
+        "address": "Riverstone, S67",
+        "phone": "(+268) 2505-2001",
+        "website": "www.celtronixmobicell@co.za",
+        "icon": "./scripts/JSON/images/celtronix.webp",
+        "level": " Level: Bronze"
+      }
     ]
 }
-
