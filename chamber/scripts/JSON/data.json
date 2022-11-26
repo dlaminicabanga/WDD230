@@ -45,7 +45,7 @@
         "address": "Mbabane, 4th Street",
         "phone": "(+268) 2505-5670",
         "website": "www.eswatinimobile.com",
-        "icon": "./scripts/JSON/images/eswatinimobile2.png",
+        "icon": "./scripts/JSON/images/AmTrust_Bank.png",
         "level": "Level: Silver"
       },
       {
@@ -53,7 +53,7 @@
         "address": "Moneni, 6th Block 18#",
         "phone": "(+268) 2505-3420",
         "website": "www.boxerstore.com",
-        "icon": "./scripts/JSON/images/boxer_logo.webp",
+        "icon": "./scripts/JSON/images/boxer_logo.png",
         "level": "Level: Bronze"
       },
       {
@@ -69,7 +69,7 @@
         "address": "Riverstone, S67",
         "phone": "(+268) 2505-2001",
         "website": "www.celtronixmobicell@co.za",
-        "icon": "./scripts/JSON/images/celtronix.webp",
+        "icon": "./scripts/JSON/images/celtronix.png",
         "level": " Level: Bronze"
       }
     ]
