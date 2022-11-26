@@ -288,6 +288,7 @@ p {
 .temp img{
     grid-column: 1/2;
     margin: 0 auto;
+    width: 100px; 
 }
 
 .temp p{
