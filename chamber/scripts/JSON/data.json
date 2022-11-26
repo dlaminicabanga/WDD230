@@ -53,7 +53,7 @@
         "address": "Moneni, 6th Block 18#",
         "phone": "(+268) 2505-3420",
         "website": "www.boxerstore.com",
-        "icon": "./scripts/JSON/images/boxer_logo.png",
+        "icon": "./scripts/JSON/images/boxer_logo.PNG",
         "level": "Level: Bronze"
       },
       {
@@ -61,7 +61,7 @@
         "address": "Kakhoza, highway MR3",
         "phone": "(+268) 2505-9131",
         "website": "www.totalfuel.com",
-        "icon": "./scripts/JSON/images/totalfuel_logo.PNG",
+        "icon": "./scripts/JSON/images/totalfuel_logo.png",
         "level": "Level: Silver"
       },
       {
