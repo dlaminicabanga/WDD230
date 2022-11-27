@@ -335,7 +335,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 48%;
     border-radius: 8px;
     border: 1px solid #ddd;
     padding: 5px;
@@ -369,12 +369,7 @@ p {
   #main-statistics:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
-  main picture#Front-Side {
-    width: 50%;
-    border: 8px red dashed;
-  }
 
-  
   picture img[data-src] {
     filter: blur(0.2em);
     width: 48%;
