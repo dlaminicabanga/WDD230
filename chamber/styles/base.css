@@ -197,7 +197,7 @@ p {
     bottom: 3rem;
     right: 3rem;
 }
-.joinUsButton {
+.joinUsB {
     background-color: #4b94cf;
     color: white;
     border: none;
@@ -207,12 +207,12 @@ p {
     text-align: none;
 }
 
-.joinUsButton:hover {
+.joinUsB:hover {
     color: #d3395a;
     background-color: #F1F9F5;
     border: #24799D;
 }
-.joinUsB3utton {
+.joinUsB3 {
     position:relative;
     bottom: 3rem;
     right: -5rem;
@@ -224,7 +224,7 @@ p {
     transition: .1s ease-out;
     text-decoration: none;
 }
-.joinUsB3utton:hover {
+.joinUsB3:hover {
     color: #d3395a;
     background-color: #F1F9F5;
     border: #24799D;

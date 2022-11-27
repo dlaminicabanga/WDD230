@@ -29,8 +29,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="Discovery.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">News</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="contactus.html">Contacts</a></li>
             </ul>
         </nav><br>
         <a class="social-icon" href="https://facebook.com" target="_blank">
@@ -57,28 +57,33 @@
                 <source media="(min-width: 560px)" srcset="images/wdd230-org_medium.webp">
                 <img src="images/wdd230-org_small.webp" alt="hero image">
             </picture>
-            <button class="joinUsB3utton"><a href=join.html>Join the Chamber</a></button>
+            <a href=join.html>
+                <button class="joinUsB3">Join the Chamber</button>
+            </a>
         </section>
 
         <section class="mainSection" id="eventSection">
             <h2>Up-Comming Events</h2>
-            <h4>Building Networks</h4>
-            <p id="events">The more you keep learning thats the more you will get the opportunities to grow
+            <h4>Building Networks on a large Scale & Growing</h4>
+            <p>The more you keep learning thats the more you will get the opportunities to grow
                 your business to new levels. Please come join us as we will diving deep on how to do this.</p>
             <p>Date: Surtday 23/ 2022</p>
         </section>
-        <section id="weather">
-            <h2>Weather</h2>
-            <div class="temp"><img alt="weather logo">
-            <p id="weatherTemp"></p></div>
-            <p id="cloudy"></p>
-            <div class="weatherGrid">
-                <p >Wind Speed:</p>
-                <p><span id="windspeed">km/h</p> 
-                <p>Wind Chill:</p>
-                <p><span class="windchill"></span></p>
+        <section class="mainSection" id="weatherSection">
+            <h3>Today's Weather</h3>
+            <div id="climate">
+                <picture>
+                    <img id="weather-image" src="images/weather.jpg" alt="this is the weather image">
+                </picture>
+                <p><span class="degrees"></span>°</p>
             </div>
-            <p id="credit"><em>*Weather data source: www.openweathermap.org</em></p>
+            <div class="weather-center">
+                <h3>Partly Cloudy</h3>
+            </div>
+            <div class="weather-bottom">
+                <p>Speed: <span class="speed"></span></p>
+                <p>Wind Chill: <span class="wind"></span></p>
+            </div>
         </section>
 
         <section class="mainSection" id="joinSection">
@@ -86,10 +91,11 @@
 
             <h4>Collaborate With the Best</h4>
 
-            <p  id="events">Join the greatest chamber of commerce in the area to network with the brightest minds who can guide your
+            <p>Join the greatest chamber of commerce in the area to network with the brightest minds who can guide your
                 small or large business toward the success you have always envisioned.</p>
-                
-            <button class="joinUsButton"><a href=join.html>Join Now</a></button>
+            <a href=join.html>
+                <button class="joinUsB">Join Now</button>
+            </a>
         </section>
         <section class="mainSection" id="newsSection">
             <h2>News Release</h2>
@@ -150,7 +156,6 @@
     </footer>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/windchill.js"></script>
-    <script src="scripts/weather.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
