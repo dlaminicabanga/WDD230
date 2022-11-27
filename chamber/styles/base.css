@@ -204,7 +204,6 @@ p {
     border-radius: 4px;
     padding: .5rem 1em;
     transition: .1s ease-out;
-    text-align: none;
 }
 
 .joinUsB:hover {
@@ -312,7 +311,7 @@ p {
 
 #weather-image {
     width: 80px;
-    height: 0 auto;
+    height: auto;
 }
 
 #weather-image:hover {
@@ -372,7 +371,7 @@ p {
   }
   main picture#Front-Side {
     width: 50%;
-    border: 8px red deshed;
+    border: 8px red dashed;
   }
 
   
@@ -424,7 +423,7 @@ form label.top input, form label.top select {
 }
 form label.sbs {
     display:block;
-    padding: .75;
+    padding: 0.75px;
 }
 form input.submitBtn {
     border: none;
@@ -445,13 +444,11 @@ form label.top input:required:valid {
 #shade2 {
     text-align:left;
     margin-left: 5%;
-    text-shadow: #39d346;
     text-decoration: underline;
 }
 /* --- Thanks Page ----*/
 #submission {
     color: #39d346;
-    text-shadow: #d3395a;
     text-align: center;
 } 
 #thanks, #thanks2 {
@@ -559,7 +556,6 @@ cursor: pointer;
 .note {
     color:red;
     text-align: center;
-    text-shadow: #1D366F;
     text-decoration: dotted;
     font-stretch: expanded;
 }
