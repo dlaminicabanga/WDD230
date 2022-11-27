@@ -69,21 +69,18 @@
                 your business to new levels. Please come join us as we will diving deep on how to do this.</p>
             <p>Date: Surtday 23/ 2022</p>
         </section>
-        <section class="mainSection" id="weatherSection">
-            <h3>Today's Weather</h3>
-            <div id="climate">
-                <picture>
-                    <img id="weather-image" src="images/weather.jpg" alt="this is the weather image">
-                </picture>
-                <p><span class="degrees"></span>°</p>
+        <section id="weather">
+            <h2>Weather</h2>
+            <div class="temp"><img src="y" alt="weather logo">
+            <p id="weatherTemp"></p></div>
+            <p id="cloudy"></p>
+            <div class="weatherGrid">
+                <p >Wind Speed:</p>
+                <p><span id="windspeed">km/h</span></p> 
+                <p>Wind Chill:</p>
+                <p><span class="windchill"></span></p>
             </div>
-            <div class="weather-center">
-                <h3>Partly Cloudy</h3>
-            </div>
-            <div class="weather-bottom">
-                <p>Speed: <span class="speed"></span></p>
-                <p>Wind Chill: <span class="wind"></span></p>
-            </div>
+            <p id="credit"><em>Weather data source: www.openweathermap.org</em></p>
         </section>
 
         <section class="mainSection" id="joinSection">
@@ -156,6 +153,7 @@
     </footer>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
